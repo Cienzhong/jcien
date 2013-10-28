@@ -1,0 +1,54 @@
+﻿#lav_ui_see
+{
+	position:absolute;
+	z-index:911;
+	float:left;
+	border:#080406 2px solid;
+	background:url(../images/see-bg.png);
+}
+.close-lay{
+    display:block;
+    z-index:912;
+    float:right;
+    text-decoration:none;
+    width:24px;
+    height:24px;
+    background:url(../images/close-icon.png);
+    background-position:0px 0px;
+}
+.close-lay:hover{
+    background-position:-24px 0px;
+}
+.lay-turn-alert{
+	filter:alpha(opacity=40); 
+	-moz-opacity:0.4; /* IE */
+	opacity: 0.4; /* Moz + FF */
+	width:100%;
+	height:30px;
+	line-height:30px;
+	background:#000000; 
+	bottom:0px;
+	position:absolute;
+	z-index:993; 
+	text-align:center;
+}
+.turn-left{
+	display:block;
+	float:left;
+	text-decoration:none;
+	width:28px;
+    height:26px;
+    background:url(../images/icon-turn-left.png);
+    border:0px;
+    margin:2px 0px 0px 10px;
+}
+.turn-right{
+	display:block;
+	float:left;
+	text-decoration:none;
+	width:28px;
+    height:26px;
+    background:url(../images/icon-turn-right.png);
+    border:0px;
+    margin:2px 0px 0px 10px;
+}
